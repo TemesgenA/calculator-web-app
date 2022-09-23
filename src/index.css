@@ -10,6 +10,7 @@ body {
   height: 522px;
   background-color: rgb(92, 92, 92);
   margin: 16px;
+  border-radius: 10px;
 }
 
 .btn-xlg {
