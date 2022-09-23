@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import calculate from '../logic/calculate';
+// import operate from '../logic/operate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends Component {
@@ -7,7 +9,8 @@ class Calculator extends Component {
       <div className="calculator">
         {/* Display screen */}
         <div className="display">
-          <span>0</span>
+          <span>(0)</span>
+          0
         </div>
         <div className="keypad">
           {/* Non-operator keys : keys beside the arithmetic operation keys */}
@@ -62,10 +65,10 @@ class Calculator extends Component {
           {/* Arithmetic operation keys */}
           <div className="operators">
             <button type="button" className="btn btn-dark btn-xlg">
-              /
+              ÷
             </button>
             <button type="button" className="btn btn-dark btn-xlg">
-              *
+              x
             </button>
             <button type="button" className="btn btn-dark btn-xlg">
               -
