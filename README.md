@@ -14,6 +14,7 @@
 
 - Webpack
 - Git
+- npm
 
 ### Framework
 
